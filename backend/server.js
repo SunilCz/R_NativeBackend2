@@ -12,7 +12,7 @@ dbConnect();
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:19000", "https://authz-app.vercel.app"],
+    origin: ["http://localhost:19000", "https://rnative2.onrender.com"],
     credentials: true,
   })
 );
